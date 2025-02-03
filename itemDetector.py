@@ -8,9 +8,6 @@ import io
 import sys
 
 # Initialize OpenAI client
-client = OpenAI(
-    api_key=""
-)
 
 # Initialize YOLO model
 model = YOLO("yolov8n.pt")
