@@ -8,6 +8,9 @@ import io
 import sys
 
 # Initialize OpenAI client
+client = OpenAI(
+    api_key="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"
+)
 
 # Initialize YOLO model
 model = YOLO("yolov8n.pt")
